@@ -93,7 +93,7 @@ Before you begin, ensure you have the following installed on your system:
    You can now use the established connection to perform various database operations such as querying data, inserting new records, updating existing records, and deleting records. For example:
 
    ```javascript
-   const connection = require('./db');
+   const connection = require('./conet');
 
    // Example query
    connection.query('SELECT * FROM users', (error, results, fields) => {
