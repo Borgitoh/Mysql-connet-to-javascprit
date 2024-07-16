@@ -1,21 +1,7 @@
-const { createPool } = require('mysql');
+const connection = require('./conet');
 
-const pool = createPool({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "store",
-    connectionLimit: 10
 
-})
-pool.query(`select * from tb_produto`, function(err, result, fields) {
-
-    if (err) {
-
-        return console.log(err);
-
-    }
-
-    return console.log(result);
-
-})
+connection.query('SELECT * FROM tb_produto', (error, results, fields) => {
+  if (error) throw error;
+  console.log('User data:', results);
+});
