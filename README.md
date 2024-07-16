@@ -106,6 +106,3 @@ Before you begin, ensure you have the following installed on your system:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
-
-Feel free to customize the README as per your specific project requirements.
