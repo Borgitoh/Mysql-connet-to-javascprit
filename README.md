@@ -83,7 +83,7 @@ Before you begin, ensure you have the following installed on your system:
 1. **Run the application:**
 
    ```bash
-   node app.js
+   node index.js
    ```
 
    This will start your Node.js application and connect to the MySQL database using the credentials provided.
