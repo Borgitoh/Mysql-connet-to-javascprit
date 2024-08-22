@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Borgitoh/Mysql-connet-to-javascprit#readme",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "mysql": "^2.18.1"
   }
 }
